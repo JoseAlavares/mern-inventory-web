@@ -1,0 +1,31 @@
+.list-group-item{
+    background-color: #ffff !important;
+    color: #0A0067 !important;
+}
+
+.custom-active{
+    color: #0A0067 !important;
+    font-weight: bold;
+    background-color: #ffff !important;
+}
+
+.menu-titles{
+    padding: .75rem 1.25rem;
+    padding-top: 0% !important;
+    font-size: 12px !important;
+}
+
+.inicio-menu-titles li{
+    padding-top: 0% !important;
+    padding-right: 0% !important;
+    padding-bottom: 0.75 !important;
+    padding-left: 1.25rem !important;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.subtitle-menu li{
+    padding-top: 0% !important;
+    margin-left: 10%;
+    font-size: 12px !important;
+}

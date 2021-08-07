@@ -1,0 +1,30 @@
+version: 0.2
+
+env:
+  variables:
+    REACT_APP_API_KEY: $REACT_APP_API_KEY
+    REACT_APP_API: $REACT_APP_API
+  exported-variables:
+    - REACT_APP_API_KEY
+    - REACT_APP_API
+
+phases:
+  install:
+    commands: 
+      #install node 12.16.3      
+      - curl -sL https://deb.nodesource.com/setup_12.x | bash -
+      - apt install -y nodejs
+
+  pre_build:
+    commands:
+      #install dependencies
+      - npm install      
+  build:
+    commands:
+      #build
+      - npm run build:production
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build

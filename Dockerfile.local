@@ -1,0 +1,12 @@
+#build environment
+FROM node:14.16.0
+RUN (curl -Ls https://cli.doppler.com/install.sh || wget -qO- https://cli.doppler.com/install.sh) | sh
+ARG DOPPLER_TOKEN
+RUN doppler setup --token=$DOPPLER_TOKEN -c loc
+WORKDIR /app
+COPY ./public ./
+COPY package*.json ./
+RUN npm i
+ENV CHOKIDAR_USEPOLLING=true
+ENV NODE_ENV=development
+CMD [ "doppler", "run", "npm", "start" ]

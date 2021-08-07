@@ -1,0 +1,41 @@
+.recepcion-label{
+    color: grey;
+    font-size: 10px;
+}
+
+.provider-modal{
+    max-width: 60% !important;
+}
+
+.provider-modal-disabled{
+    max-width: auto !important;
+}
+
+
+.provider-modal-title{
+    font-size: 20px;
+}
+
+.provider-form{
+    width: 100%;
+}
+
+.provider-col{
+    margin-right: 0px;
+}
+
+.section-title-provider-modal{
+    font-size: 15px;
+}
+
+.provider-modal-input .md-form label{
+    font-size: 10px;
+}
+
+.agreed-button{
+    background-color: #0A0067 !important;
+}
+
+.cancel-button{
+    background-color: gray !important;
+}

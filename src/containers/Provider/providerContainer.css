@@ -1,0 +1,30 @@
+.add-btn{
+    color: #0A0067;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-top: 0% !important;
+    padding-right: 0% !important;
+    text-transform: none;
+}
+
+.add-btn:hover{
+    color: #0A0067;
+}
+
+.add-btn-text{
+    margin-bottom: 0%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.add-btn-text:hover{
+    cursor: pointer;
+}
+
+.add-icon{
+    padding-bottom: 2px;
+}
+
+.section-title{
+    color: #CC000C;
+}

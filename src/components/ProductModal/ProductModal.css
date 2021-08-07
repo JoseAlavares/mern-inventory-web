@@ -1,0 +1,47 @@
+.rounded-btn {
+    border-radius: 100px;
+}
+
+.d-flex div{
+    padding: 1rem;
+    text-align: center;
+}
+
+.div-width {
+    width: 100% !important;
+    height: 1rem;
+}
+
+.agreed-button{
+    background-color: #0A0067 !important;
+    color: #ffff;
+}
+
+.cancel-button{
+    background-color: gray !important;
+}
+
+.create-button{
+    background-color: #0BD068 !important;
+}
+
+.img-label, .tam-label, .parent-label{
+    color: #757575; 
+}
+
+.custom-file-label::after{
+    content: "Seleccionar" !important;
+}
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.img-wrapper img{
+    width: 30%;
+    height: 30%;
+    box-shadow: 1px 1px 3px #757575;
+}

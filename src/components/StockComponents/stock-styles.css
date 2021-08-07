@@ -1,0 +1,93 @@
+.align-radio input {
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.agreed-button{
+    background-color: #0A0067 !important;
+    color: #ffff;
+}
+
+.cancel-button{
+    background-color: gray !important;
+}
+
+.custom-md-form{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.custom-md-form .date-label::after{
+    position: absolute;
+    top: 65px;
+    display: block;
+    content: "";
+    opacity: 0;
+    transition: 0.2s opacity ease-out,0.2s color ease-out;
+}
+
+.custom-md-form>.date-label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-md-form .date-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    color: #757575;
+    cursor: text;
+    transition: transform .2s ease-out, color .2s ease-out;
+    transform: translateY(12px);
+    transform-origin: 0% 100%;
+}
+
+.custom-md-form .date-label.active {
+    transform: translateY(-14px) scale(0.8);
+}
+
+.date-label{
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.date-picker{
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    height: auto;
+    padding: .6rem 0 .4rem 0;
+    margin: 0 0 .5rem 0;
+    width: 100%;
+    color:#495057;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+.date-picker:focus{
+    border-bottom:1px solid  #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+
+.ubicacion-label, .lote-label, .motivo-label{
+    color: #757575; 
+}
+
+.form-check{
+    margin-bottom: 15px;
+}
+
+.form-check-label{
+    color: #757575; 
+}

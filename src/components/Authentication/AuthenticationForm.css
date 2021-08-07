@@ -1,0 +1,12 @@
+.auth-form__view {
+    background-color: gray;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fsweets-and-candy-icon-set-12-flat-design-vector-22314128&psig=AOvVaw0dYYt5FrEu1dksEN33SR5t&ust=1603495633520000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDl2POsyewCFQAAAAAdAAAAABAF");
+}
+.auth-form {
+    margin-top: 200px;
+}
+
+.auth-form__errors {
+    color: red;
+
+}

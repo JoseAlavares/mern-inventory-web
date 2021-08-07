@@ -1,0 +1,12 @@
+.md-form{
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.item{
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+}

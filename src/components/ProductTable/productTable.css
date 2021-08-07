@@ -1,0 +1,14 @@
+.active-status{
+    color: #0BD068;
+    font-weight: bold;
+}
+
+.inactive-status{
+    color: grey;
+}
+
+.table tr td{
+    padding-top: 0.20rem !important; 
+    padding-bottom: 0.20rem !important; 
+    vertical-align: middle !important;
+}

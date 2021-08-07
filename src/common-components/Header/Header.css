@@ -1,0 +1,24 @@
+.fix-menu {
+    left: -100px
+}
+
+.user-icon{
+    color: #ffff;
+}
+
+.dropdown-toggle::after{
+    color: #ffff !important;
+}
+
+.dropdown-toggle:hover i{
+    color: #EDEDEE !important;
+}
+
+
+.dropdown-toggle:hover:after{
+    color: #EDEDEE !important;
+}
+
+.flexible-navbar{
+    background-color: #0A0067 !important;
+}

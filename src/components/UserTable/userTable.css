@@ -1,0 +1,16 @@
+.active-status{
+    color: #0BD068;
+    font-weight: bold;
+}
+
+.inactive-status{
+    color: grey;
+}
+
+.edit-icon:hover, .edit-icon-container, .disable-icon, .disable-icon-container{
+    cursor: pointer;
+}
+
+.disable-icon{
+    margin-left: 6px;
+}

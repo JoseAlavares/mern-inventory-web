@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    padding: 5px;
+}
+
+.wrapper {
+    display: grid;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.items {
+    height: auto;
+}

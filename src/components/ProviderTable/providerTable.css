@@ -1,0 +1,47 @@
+.active-status{
+    color: #0BD068;
+    font-weight: bold;
+}
+
+.inactive-status{
+    color: grey;
+}
+
+.edit-icon:hover, .edit-icon-container, .disable-icon, .disable-icon-container, .eye-icon:hover{
+    cursor: pointer;
+}
+
+.disable-icon{
+    margin-left: 6px;
+}
+
+.eye-button{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.details-name{
+    font-weight: bold;
+}
+
+.details-name:hover{
+    font-weight: bold;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+.provider-modal-body{
+    height: 620px;
+}
+
+.provider-modal-body-disabled{
+    height: auto;
+}
+
+.table tr td{
+    padding-top: 0.20rem !important; 
+    padding-bottom: 0.20rem !important; 
+    vertical-align: middle !important;
+}
